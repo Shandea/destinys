@@ -25,7 +25,7 @@
       .input,
       .textarea
       {
-        @apply focus:outline-none border focus:border-accent focus:ring-accent block focus:ring-1 focus:ring-opacity-50 rounded-md focus:shadow-lg xl:text-xl lg:text-xl md:text-lg sm:text-sm xs:text-xs border-gray-300 shadow-md;
+        @apply focus:outline-none border focus:border-accentAqua focus:ring-accent block focus:ring-1 focus:ring-opacity-50 rounded-md focus:shadow-lg xl:text-xl lg:text-xl md:text-lg sm:text-sm xs:text-xs border-gray-300 shadow-md;
       }
       .textarea {
         @apply  h-[180px] capitalize rounded-md resize-none;
