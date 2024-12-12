@@ -5,9 +5,16 @@ const flipCardData = data.flipCardData;
 const Services = () => {
   return (
     <>
-      {flipCardData.map((el) => (
-        <FlipCard backCardTxt={el.text} src={el.src} alt={el.alt} key={el.id} />
-      ))}
+      <div className="flex items-center justify-around flex-wrap w-screen">
+        {flipCardData.map((el) => (
+          <FlipCard
+            backCardTxt={el.text}
+            src={el.src}
+            alt={el.alt}
+            key={el.id}
+          />
+        ))}
+      </div>
     </>
   );
 };
