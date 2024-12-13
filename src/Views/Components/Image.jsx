@@ -1,12 +1,12 @@
-const Image = ({ src, alt,borderRadius, border, width, height }) => {
-    return (
-      <img
-        src={src}
-        alt={alt}
-        className={`rounded-${borderRadius} border-${border} w-full h-auto`}
-        style={{ width, height }}
-      />
-    );
-  };
-  
-  export default Image;
+import React from "react";
+const Image = ({ src, alt }) => {
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className=" border-accentAqua border-4  rounded-3xl h-full w-full object-contain "
+    />
+  );
+};
+
+export default Image;
