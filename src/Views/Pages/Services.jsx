@@ -10,11 +10,11 @@ const Services = () => {
       <div className="my-4">
         <ButtonCard
           blurbText={servicesBlurb}
-          blurbTextColor="primaryBlue"
+          blurbTextColor="text-primaryBlue"
           buttonText="Give Us A Call!"
           buttonOnClick={null}
-          buttonBgColor="primaryBlue"
-          buttonTextColor="white"
+          buttonBgColor="bg-primaryBlue"
+          buttonTextColor="text-white"
         />
       </div>
       <div className="xl:bg-accentAqua h-80 w-screen xl:flex xl:flex-col xl:justify-end xl:mt-40">
