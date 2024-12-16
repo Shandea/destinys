@@ -5,7 +5,7 @@ const Image = ({ src, alt }) => {
       <img
         src={src}
         alt={alt}
-        className=" border-accentAqua border-4  rounded-3xl h-full w-full object-contain "
+        className=" border-accentAqua border-4  rounded-3xl h-full w-full object-cover"
       />
     </>
   );
