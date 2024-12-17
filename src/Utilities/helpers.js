@@ -8,6 +8,14 @@ import cakeFruit from "../Assets/Images/CakeFruit.png";
 import cakeHeart from "../Assets/Images/CakeHeart.png";
 import CheeseCake from "../Assets/Images/CheeseCake.png";
 import CakeBirthday from "../Assets/Images/CakeBirthday.png";
+import CookieBrownies from "../Assets/Images/CookieBrownies.png";
+import CookieChristmas from "../Assets/Images/CookieChristmas.png";
+import CookieMonster from "../Assets/Images/CookieMonster.png";
+import CookieOreo from "../Assets/Images/CookieOreo.png";
+import CookieRed from "../Assets/Images/CookieRed.png";
+import CookieNut from "../Assets/Images/CookiesNut.png";
+import CookieStrawberry from "../Assets/Images/CookieStrawberry.png";
+import CookieSugar from "../Assets/Images/CookieSugar.png";
 
 const data = {
   flipCardData: [
@@ -96,6 +104,59 @@ const data = {
 
   cakeBlurb:
     "From elegant wedding cakes to fun birthday designs, our cakes are made to celebrate life's sweetest moments. Each one is handcrafted with love and customized to your vision, ensuring your special day is as unique as you are.",
+
+  cookieData: [
+    {
+      title: "Cookie Brownies",
+      src: CookieBrownies,
+      alt: "Brownie Cookie",
+      id: 1,
+    },
+    {
+      title: "Cookie Christmas",
+      src: CookieChristmas,
+      alt: "Christmas Cookies",
+      id: 2,
+    },
+    {
+      title: "Cookie Monster",
+      src: CookieMonster,
+      alt: "Cookie Monster cookies",
+      id: 3,
+    },
+    {
+      title: "Cookie Oreo",
+      src: CookieOreo,
+      alt: "Oreo cookies",
+      id: 4,
+    },
+    {
+      title: "Cookie Red",
+      src: CookieRed,
+      alt: "Red velvet cookie",
+      id: 5,
+    },
+    {
+      title: "Cookie Nut",
+      src: CookieNut,
+      alt: "Nut cookies",
+      id: 6,
+    },
+    {
+      title: "Cookie Strawberry",
+      src: CookieStrawberry,
+      alt: "Strawberry Cookies",
+      id: 7,
+    },
+    {
+      title: "Cookie Sugar",
+      src: CookieSugar,
+      alt: "Sugar Cookies",
+      id: 8,
+    },
+  ],
+
+  cookieBlurb: "From freshly baked and always delicious, our cookies are made to bring smiles to any gathering. From classic favorites to creative seasonal designs, there's a cookie here for everyone to love!",
 };
 
 export default data;
