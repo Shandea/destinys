@@ -1,9 +1,12 @@
 import React from "react";
-import Image from "../Components/Image";
+import Banner from "../Components/Banner";
 import ButtonCard from "../Components/Cards/ButtonCard";
 import Title from "../Components/Title";
+import Image from "../Components/Image";
 import CardTitle from "../Components/Cards/CardTitle";
 import data from "../../Utilities/helpers";
+
+import cakeStar from "../../Assets/Images/BannerImages/CakeStar.jpg";
 
 const Cake = () => {
   const { cakeBlurb, cakeData } = data;
@@ -11,6 +14,7 @@ const Cake = () => {
 
   return (
     <>
+      <Banner src={cakeStar} alt="a frosted cake with stars on it" />
       <div className="my-4">
         <ButtonCard
           blurbText={cakeBlurb}

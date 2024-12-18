@@ -1,12 +1,17 @@
-import FlipCard from "../Components/Cards/FlipCard";
+import Banner from "../Components/Banner";
 import ButtonCard from "../Components/Cards/ButtonCard";
+import FlipCard from "../Components/Cards/FlipCard";
+
+import donutsPink from "../../Assets/Images/BannerImages/DoughnutPink.jpg";
+
 import data from "../../Utilities/helpers";
-const servicesBlurb = data.servicesBlurb;
-const flipCardData = data.flipCardData;
 
 const Services = () => {
+  const { servicesBlurb, flipCardData } = data;
+  const dataToDisplay = flipCardData.filter(Boolean);
   return (
     <>
+      <Banner src={donutsPink} alt="multiple donuts on a pink background" />
       <div className="my-4">
         <ButtonCard
           blurbText={servicesBlurb}
@@ -19,7 +24,7 @@ const Services = () => {
       </div>
       <div className="xl:bg-accentAqua h-80 w-screen xl:flex xl:flex-col xl:justify-end xl:mt-40">
         <div className="flex items-center justify-around flex-wrap w-screen">
-          {flipCardData.map((el) => (
+          {dataToDisplay.map((el) => (
             <FlipCard
               backCardTxt={el.text}
               src={el.src}
