@@ -230,14 +230,20 @@ const data = {
   contactBlurbText:
     "We'd love to hear from you! Whether you have questions, need a custom order, or want to learn more about how we can sweeten your special moments, Destiny's Bakery is here to help. Reach out to us anytime—we're just a call, message, or visit away. Let us bring a little more joy to your day!",
 
-  aboutBlurbOne:
-    "Destiny's Bakery was born from a lifelong love of family, connection, and community. Growing up, Destiny was always surrounded by family and friends, gathered together in the kitchen-a space where love and laughter filled the air. Her home was a welcoming haven, especially during the holidays, where the doors were open to anyone needing a warm meal, a full heart, and cherished memories. Every meaningful moment seemed to start in the kitchen, where bonds were strengthened, and lives were touched.",
-
-  aboutBlurbTwo:
-    "Destiny quickly realized her passion for creating moments of connection and joy through baking. She discovered that by filling bellies, she could also fill hearts. Guided by the values instilled in her from a home that embraced those in need, Destiny has made it her mission to give back to her community. At the end of each day, she donates all unsold products to local shelters and organizations that serve those experiencing hunger. Beyond that, she actively helps raise funds for individuals and families in need, ensuring her community thrives together.",
-
-  aboutBlurbThree:
-    "Through Destiny's Bakery, she combines her love of baking with her dedication to spreading joy, fostering connection, and giving back. Every loaf, pastry, and cake is baked with the intention of creating not just delicious treats but also opportunities for love, kindness, and community to flourish.",
+  aboutData: [
+    {
+      text: "Destiny's Bakery was born from a lifelong love of family, connection, and community. Growing up, Destiny was always surrounded by family and friends, gathered together in the kitchen-a space where love and laughter filled the air. Her home was a welcoming haven, especially during the holidays, where the doors were open to anyone needing a warm meal, a full heart, and cherished memories. Every meaningful moment seemed to start in the kitchen, where bonds were strengthened, and lives were touched.",
+      id: 1,
+    },
+    {
+      text: "Destiny quickly realized her passion for creating moments of connection and joy through baking. She discovered that by filling bellies, she could also fill hearts. Guided by the values instilled in her from a home that embraced those in need, Destiny has made it her mission to give back to her community. At the end of each day, she donates all unsold products to local shelters and organizations that serve those experiencing hunger. Beyond that, she actively helps raise funds for individuals and families in need, ensuring her community thrives together.",
+      id: 2,
+    },
+    {
+      text: "Through Destiny's Bakery, she combines her love of baking with her dedication to spreading joy, fostering connection, and giving back. Every loaf, pastry, and cake is baked with the intention of creating not just delicious treats but also opportunities for love, kindness, and community to flourish.",
+      id: 3,
+    },
+  ],
 };
 
 export default data;
