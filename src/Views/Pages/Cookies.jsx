@@ -1,18 +1,19 @@
 import React from "react";
-import Image from "../Components/Image";
+import Banner from "../Components/Banner";
 import ButtonCard from "../Components/Cards/ButtonCard";
 import Title from "../Components/Title";
+import Image from "../Components/Image";
 import CardTitle from "../Components/Cards/CardTitle";
 import data from "../../Utilities/helpers";
 
-
+import cookieBanner from "../../Assets/Images/BannerImages/CookieWhiteChocolateSideWays.png";
 
 const Cookies = () => {
   const { cookieBlurb, cookieData } = data;
   const imagesToDisplay = cookieData.filter(Boolean);
   return (
     <>
-     
+      <Banner src={cookieBanner} alt="white choclate strawberry cookies" />
       <div className="my-4">
         <ButtonCard
           blurbText={cookieBlurb}
@@ -43,7 +44,5 @@ const Cookies = () => {
     </>
   );
 };
-
-  
 
 export default Cookies;
