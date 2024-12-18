@@ -32,7 +32,7 @@ const ContactForm = () => {
     <>
       <div className="border-2 border-accentAqua p-2 md:w-1/2 flex flex-col items-center justify-center">
         <form onSubmit={sendEmail} ref={form} className="my-5">
-          <label>
+          <label className="text-primaryBlue">
             Name:
             <input
               type="text"
@@ -42,17 +42,17 @@ const ContactForm = () => {
               className="input"
             />
           </label>
-          <label>
+          <label className="text-primaryBlue">
             Phone Number:
             <input
-              type="number"
+              type="tel"
               name="phonenumber"
               value={phonenumber}
               onChange={(e) => setPhonenumber(e.target.value)}
               className="input"
             />
           </label>
-          <label>
+          <label className="text-primaryBlue">
             Email:
             <input
               type="email"
@@ -62,13 +62,13 @@ const ContactForm = () => {
               className="input"
             />
           </label>
-          <label>
+          <label className="text-primaryBlue">
             Message:
             <textarea
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="textarea"
+              className="textarea resize-none"
             />
           </label>
           <div className="py-5 flex justify-center">
