@@ -8,7 +8,14 @@ import Fundraising from "../../Assets/Images/Fundraising.png";
 import CharityHeart from "../../Assets/Images/CharityHeart.png";
 
 const Carousel = () => {
-  const images = [Charity, CharityGirl, CharityHelping, Community, Fundraising, CharityHeart];
+  const images = [
+    Charity,
+    CharityGirl,
+    CharityHelping,
+    Community,
+    Fundraising,
+    CharityHeart,
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef(null);
 
@@ -17,13 +24,17 @@ const Carousel = () => {
   };
 
   const goToPrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
   };
 
   useEffect(() => {
     const updateWidth = () => {
       if (carouselRef.current) {
-        carouselRef.current.style.transform = `translateX(-${currentIndex * carouselRef.current.offsetWidth}px)`;
+        carouselRef.current.style.transform = `translateX(-${
+          currentIndex * carouselRef.current.offsetWidth
+        }px)`;
       }
     };
     updateWidth();
@@ -32,11 +43,8 @@ const Carousel = () => {
   }, [currentIndex]);
 
   return (
-     <div className="relative overflow-hidden w-96 h-96 flex  justify-self-center">
-      <div
-        ref={carouselRef}
-        className="flex transition-transform duration-500"
-      >
+    <div className="relative overflow-hidden w-96 h-96 flex  justify-self-center">
+      <div ref={carouselRef} className="flex transition-transform duration-500">
         {images.map((image, index) => (
           <div key={index} className="w-full h-auto  flex-shrink-0">
             <img
