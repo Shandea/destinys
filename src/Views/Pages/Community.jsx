@@ -1,5 +1,4 @@
 import Banner from "../Components/Banner";
-
 import doughnutsBlue from "../../Assets/Images/BannerImages/DoughnutBlue.jpg";
 
 const Community = () => {
