@@ -8,13 +8,8 @@ const Slogan = () => {
         <div className="text-center text-xl mt-12 mb-8 text-primaryBlue">
           "Spreading Joy, One Sweet Bite at a Time!"
         </div>
-
         <div className="relative w-full flex items-center justify-center">
-          <img
-            src={aqua}
-            alt="aqua blue ribbon across page"
-            className="absolute w-full h-[8%]"
-          />
+          <div className="absolute top-1/2 w-full h-[5%] bg-accentAqua"></div>
           <img
             src={cupcake}
             alt="tiny colorful cupcake with frosting"

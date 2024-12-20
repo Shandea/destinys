@@ -8,7 +8,6 @@ import Community from "./Views/Pages/Community";
 import Cake from "./Views/Pages/Cake";
 import CupCake from "./Views/Pages/CupCake";
 import Cookies from "./Views/Pages/Cookies";
-// import Slogan from "./Views/Pages/slogan";
 import "./global.css";
 
 function App() {
