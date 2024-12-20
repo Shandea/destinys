@@ -23,7 +23,7 @@ const CupCake = () => {
           buttonTextColor="text-white"
         />
         <div className="my-4">
-          <Title text="Our Cookies" />
+          <Title text="Our Cupcakes" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {imagesToDisplay.map((image) => (
