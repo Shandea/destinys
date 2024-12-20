@@ -1,10 +1,11 @@
 import cupcake from "../../Assets/Icons/CupcakeIcon.png";
+import aqua from "../../Assets/Images/aqua-ribbon.jpg";
 
 const Slogan = () => {
   return (
     <>
      <section className="flex flex-col items-center">
-        <div className="text-center text-xl mt-12 mb-8">
+        <div className="text-center text-xl mt-12 mb-8 text-primaryBlue">
           "Spreading Joy, One Sweet Bite at a Time!"
         </div>
 
