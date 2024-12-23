@@ -32,7 +32,7 @@ const Cookies = () => {
         />
       ) : (
         <ProductPage
-          blurbText={cookieBlurb}
+          blurb={cookieBlurb}
           ProductTitle="Our Cookies"
           productData={productData}
           openModal={openModal}
