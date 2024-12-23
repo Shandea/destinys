@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router";
 import Banner from "../Components/Banner";
 import ButtonCard from "../Components/Cards/ButtonCard";
 import FlipCard from "../Components/Cards/FlipCard";
@@ -7,6 +8,7 @@ import donutsPink from "../../Assets/Images/BannerImages/DoughnutPink.jpg";
 import data from "../../Utilities/helpers";
 
 const Services = () => {
+  const navigate = useNavigate();
   const { servicesBlurb, flipCardData } = data;
   const dataToDisplay = flipCardData.filter(Boolean);
   return (
@@ -17,7 +19,9 @@ const Services = () => {
           blurbText={servicesBlurb}
           blurbTextColor="text-primaryBlue"
           buttonText="Give Us A Call!"
-          buttonOnClick={null}
+          buttonOnClick={
+            window.innerWidth > 768 ? () => navigate("/contact") : null
+          }
           buttonBgColor="bg-primaryBlue"
           buttonTextColor="text-white"
         />
