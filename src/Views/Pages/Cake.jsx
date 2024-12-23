@@ -33,7 +33,7 @@ const Cake = () => {
         />
       ) : (
         <ProductPage
-          blurbText={cakeBlurb}
+          blurb={cakeBlurb}
           productTitle="Our Cakes"
           productData={productData}
           openModal={openModal}

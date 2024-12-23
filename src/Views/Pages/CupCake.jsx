@@ -17,6 +17,7 @@ const CupCake = () => {
     setOpenModal(false);
     setProductDetails({});
   };
+
   const { cupCakeBlurb, cupCakeData } = data;
   const productData = cupCakeData.filter(Boolean);
   return (
@@ -31,7 +32,7 @@ const CupCake = () => {
         />
       ) : (
         <ProductPage
-          blurbText={cupCakeBlurb}
+          blurb={cupCakeBlurb}
           productTitle="Our Cupcakes"
           productData={productData}
           openModal={openModal}
