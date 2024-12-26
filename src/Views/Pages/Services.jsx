@@ -22,7 +22,7 @@ const Services = () => {
           buttonOnClick={
             window.innerWidth > 768 ? () => navigate("/contact") : null
           }
-          buttonBgColor="bg-primaryBlue"
+          buttonBgColor="bg-secondaryRed"
           buttonTextColor="text-white"
         />
       </div>

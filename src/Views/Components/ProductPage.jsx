@@ -14,7 +14,7 @@ const ProductPage = ({ blurb, productTitle, productData, openModal }) => {
           blurbText={blurb}
           blurbTextColor="text-primaryBlue"
           buttonText="Call To Order!"
-          buttonBgColor="bg-primaryBlue"
+          buttonBgColor="bg-secondaryRed"
           buttonTextColor="text-white"
           buttonOnClick={
             window.innerWidth > 768 ? () => navigate("/contact") : null
