@@ -56,7 +56,7 @@ const data = {
     },
   ],
   servicesBlurb:
-    "At Destiny's Bakery, we offer a delightful selection of everyday treats, including cakes, doughnuts, cookies, kolache's, and freshly brewed coffee, made fresh daily. Beyond our daily offerings, we specialize in event catering and custom orders for holidays, birthdays, anniversaries, and graduations. We're also proud to support our community by hosting and providing goods for fundraising events. Whether it's a quick treat, a special occasion, or a community gathering, Destiny's Bakery is here to make every moment sweeter!",
+    "At Destiny's Bakery, we offer a delightful selection of everyday treats, including cakes, doughnuts, cookies, kolaches, and freshly brewed coffee, made fresh daily. Beyond our daily offerings, we specialize in event catering and custom orders for holidays, birthdays, anniversaries, and graduations. We're also proud to support our community by hosting and providing goods for fundraising events. Whether it's a quick treat, a special occasion, or a community gathering, Destiny's Bakery is here to make every moment sweeter!",
 
   cupCakeData: [
     {
@@ -266,10 +266,10 @@ const data = {
   ],
 
   cookieBlurb:
-    "From freshly baked and always delicious, our cookies are made to bring siles to any gathering. From classic favorites to creative seasonal designs, there's a cookie here for everyone to love!",
+    "From freshly baked and always delicious, our cookies are made to bring smiles to any gathering. From classic favorites to creative seasonal designs, there's a cookie here for everyone to love!",
 
   missionBlurbText:
-    "At Destiny's Bakery, our mission is to spread joy and create moments of happiness through our love for baking. We are committed to making every treat a delightful experience while giving back to the community by donating to our neighborhood and helping raise funds for those in need.",
+    "At Destiny's Bakery, our mission is to spread joy and create moments of happiness through our love of baking. We are committed to making every treat a delightful experience while giving back to the community. We donate to our neighborhood and help raise funds for those in need.",
 
   visionBlurbText:
     "Our vision is to be a bakery that not only fills hearts with happiness and homes with sweetness but also fosters kindness and community by using our passion for baking to make a meaningful difference.",
