@@ -4,6 +4,7 @@ import Blurb from "../Components/Blurb";
 import Image from "../Components/Image";
 
 import pasteryDisplay from "../../Assets/Images/BannerImages/PasteryDisplay.jpg";
+import bakeryDisplay from "../../Assets/Images/BannerImages/bakeryDisplay.jpg";
 import cupCakePink from "../../Assets/Images/CupcakePink.png";
 import cupCakeSprinkles from "../../Assets/Images/CupcakeSprinkles.png";
 
@@ -26,7 +27,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Banner src={bakeryDisplay} alt="white choclate strawberry cookies" />
       <div>
         <Title text="Our Vision" />
         <div className="flex flex-col-reverse md:flex-row justify-around items-center my-4 py-4 border-accentAqua border-y-2">
