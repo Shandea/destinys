@@ -239,11 +239,17 @@ const data = {
       text: "Destiny quickly realized her passion for creating moments of connection and joy through baking. She discovered that by filling bellies, she could also fill hearts. Guided by the values instilled in her from a home that embraced those in need, Destiny has made it her mission to give back to her community. At the end of each day, she donates all unsold products to local shelters and organizations that serve those experiencing hunger. Beyond that, she actively helps raise funds for individuals and families in need, ensuring her community thrives together.",
       id: 2,
     },
+  ],
+  bakeryBlurb:[
     {
       text: "Through Destiny's Bakery, she combines her love of baking with her dedication to spreading joy, fostering connection, and giving back. Every loaf, pastry, and cake is baked with the intention of creating not just delicious treats but also opportunities for love, kindness, and community to flourish.",
-      id: 3,
+      id: 1
     },
-  ],
+    {
+      text: "Beyond crafting exceptional baked goods, Destiny's Bakery serves as a beacon of generosity and care. By donating leftover products to neighborhood shelters, the bakery not only reduces waste but also nourishes those in need. With every bite, her creations remind people of the power of simple acts of kindness and the warmth that food can bring to a community.",
+      id: 2
+    }
+  ]
 };
 
 export default data;
