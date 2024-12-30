@@ -26,8 +26,8 @@ const Services = () => {
           buttonTextColor="text-white"
         />
       </div>
-      <div className="w-screen xl:bg-accentAqua xl:h-80 xl:flex xl:flex-col xl:justify-end xl:mt-40">
-        <div className="flex items-center justify-around flex-wrap w-screen">
+      <div className="xl:bg-accentAqua xl:h-80 xl:flex xl:flex-col xl:justify-end xl:mt-40">
+        <div className="flex items-center justify-around flex-wrap">
           {dataToDisplay.map((el) => (
             <FlipCard
               backCardTxt={el.text}

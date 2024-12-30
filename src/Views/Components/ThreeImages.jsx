@@ -13,13 +13,11 @@ const data = [
 const ThreeImages = () => {
   return (
     <>
-      <div className="w-screen xl:bg-accentAqua xl:h-60 xl:flex xl:flex-col xl:justify-end xl:mt-60">
-        <div className="flex items-center justify-center flex-wrap w-screen">
+      <div className="w-full xl:bg-accentAqua xl:h-60 xl:flex xl:flex-col xl:justify-end xl:mt-60">
+        <div className="flex items-center justify-center flex-wrap">
           {data.map((el, ind) => (
             <div
-              className={`${
-                ind === 1 ? "h-96 w-96" : "xl:h-80 xl:w-80 h-96 w-96"
-              } m-4`}
+              className={`${ind === 1 ? "size-96" : "xl:size-80 size-96"} m-4`}
               key={el.id}
             >
               <Image src={el.src} alt={el.alt} />

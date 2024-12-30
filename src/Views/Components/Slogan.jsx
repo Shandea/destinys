@@ -1,5 +1,4 @@
 import cupcake from "../../Assets/Icons/CupcakeIcon.png";
-import aqua from "../../Assets/Images/aqua-ribbon.jpg";
 
 const Slogan = () => {
   return (
