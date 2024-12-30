@@ -9,13 +9,12 @@ import cupCakePink from "../../Assets/Images/CupcakePink.png";
 import cupCakeSprinkles from "../../Assets/Images/CupcakeSprinkles.png";
 
 import data from "../../Utilities/helpers";
-const missionBlurbText = data.missionBlurbText;
-const visionBlurbText = data.visionBlurbText;
 
 const Home = () => {
+  const { missionBlurbText, visionBlurbText } = data;
   return (
     <>
-      <Banner src={pasteryDisplay} alt="white choclate strawberry cookies" />
+      <Banner src={pasteryDisplay} alt="a pastery display in a bakery" />
       <div>
         <Title text="Our Mission" />
         <div className="flex flex-col md:flex-row justify-around items-center my-4 py-4 border-accentAqua border-y-2">
@@ -27,10 +26,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Banner src={bakeryDisplay} alt="white choclate strawberry cookies" />
+      <Banner src={bakeryDisplay} alt="a bakery display case" />
       <div>
         <Title text="Our Vision" />
-        <div className="flex flex-col-reverse md:flex-row justify-around items-center my-4 py-4 border-accentAqua border-y-2">
+        <div className="flex flex-col-reverse md:flex-row justify-around items-center my-4 py-4 border-accentAqua border-y-2 mb-24">
           <div className="h-72 w-72 md:h-80 md:w-96">
             <Image
               src={cupCakeSprinkles}

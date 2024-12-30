@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="border-y-2 border-accentAqua">
           <Blurb text={blurbText} textColor="text-primaryBlue" />
         </div>
-        <div className="flex flex-col md:flex-row p-5 space-x-10 justify-around">
+        <div className="flex flex-col md:flex-row p-5 justify-around md:items-center">
           <ContactInfo />
           <ContactForm />
         </div>
