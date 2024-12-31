@@ -277,20 +277,10 @@ const data = {
   contactBlurbText:
     "We'd love to hear from you! Whether you have questions, need a custom order, or want to learn more about how we can sweeten your special moments, Destiny's Bakery is here to help. Reach out to us anytime—we're just a call, message, or visit away. Let us bring a little more joy to your day!",
 
-  aboutData: [
-    {
-      text: "Destiny's Bakery was born from a lifelong love of family, connection, and community. Growing up, Destiny was always surrounded by family and friends, gathered together in the kitchen-a space where love and laughter filled the air. Her home was a welcoming haven, especially during the holidays, where the doors were open to anyone needing a warm meal, a full heart, and cherished memories. Every meaningful moment seemed to start in the kitchen, where bonds were strengthened, and lives were touched.",
-      id: 1,
-    },
-    {
-      text: "Destiny quickly realized her passion for creating moments of connection and joy through baking. She discovered that by filling bellies, she could also fill hearts. Guided by the values instilled in her from a home that embraced those in need, Destiny has made it her mission to give back to her community. At the end of each day, she donates all unsold products to local shelters and organizations that serve those experiencing hunger. Beyond that, she actively helps raise funds for individuals and families in need, ensuring her community thrives together.",
-      id: 2,
-    },
-    {
-      text: "Through Destiny's Bakery, she combines her love of baking with her dedication to spreading joy, fostering connection, and giving back. Every loaf, pastry, and cake is baked with the intention of creating not just delicious treats but also opportunities for love, kindness, and community to flourish.",
-      id: 3,
-    },
-  ],
+  aboutBlurb1:
+    "Through Destiny's Bakery, she combines her love of baking with her dedication to spreading joy, fostering connection, and giving back. Every loaf, pastry, and cake is baked with the intention of creating not just delicious treats but also opportunities for love, kindness, and community to flourish.",
+  aboutBlurb2:
+    "Beyond crafting exceptional baked goods, Destiny's Bakery serves as a beacon of generosity and care. By donating leftover products to neighborhood shelters, the bakery not only reduces waste but also nourishes those in need. With every bite, her creations remind people of the power of simple acts of kindness and the warmth that food can bring to a community.",
   communityBlurbTxt:
     "At Destiny's Bakery, we go beyond baking to make a difference. We proudly support low-income families, children's homes, and women's and men's shelters by donating special treats to brighten their days. From ensuring families have desserts for their children's special occasions to creating moments of joy for those in need, we're here to help. If you know a family or organization that could use our support, please reach out—we're committed to spreading love and kindness throughout our community. We believe in giving back to the community that supports us. If you know someone in need or have a cause close to your heart, reach out to us—we're always ready to lend a helping hand. Together, we can spread joy, kindness, and hope where it's needed most.",
 };
