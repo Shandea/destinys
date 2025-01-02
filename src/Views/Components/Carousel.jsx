@@ -16,6 +16,7 @@ const Carousel = () => {
     Fundraising,
     CharityHeart,
   ];
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef(null);
 
@@ -43,14 +44,14 @@ const Carousel = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative overflow-hidden w-96 h-96 flex  justify-self-center">
+    <div className="relative overflow-hidden size-80 md:size-96 flex justify-self-center">
       <div ref={carouselRef} className="flex transition-transform duration-500">
         {images.map((image, index) => (
-          <div key={index} className="w-full h-auto  flex-shrink-0">
+          <div key={index} className="w-full h-auto flex-shrink-0">
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover  "
+              className="w-full h-full object-cover border-accentAqua border-4 rounded-3xl"
             />
           </div>
         ))}
