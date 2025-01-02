@@ -60,7 +60,7 @@ const data = {
 
   cupCakeData: [
     {
-      title: "Chocolate Cupcakes",
+      title: "Chocolate",
       src: cupcakeChocolate,
       alt: "Chocolate Cupcake",
       id: 1,
@@ -68,7 +68,7 @@ const data = {
         "Indulge your sweet tooth with this decadent chocolate cupcake. Topped with a swirl of rich chocolate frosting and sprinkled with colorful sprinkles, it's a bite-sized treat that's sure to satisfy any chocolate craving.",
     },
     {
-      title: "Dark Chocolate Cupcake",
+      title: "Dark Chocolate",
       src: cupcakeDark,
       alt: "Dark Chocolate Cupcake",
       id: 2,
@@ -76,7 +76,7 @@ const data = {
         "Rich, decadent, and oh-so-indulgent, these dark chocolate cupcakes are a true chocolate lover's dream. Topped with swirls of velvety frosting and sprinkled with a touch of gold, they offer a sophisticated and satisfying treat.",
     },
     {
-      title: "Neapolitan Cupcakes",
+      title: "Neapolitan",
       src: cupcakePink,
       alt: "Neapolitan Cupcakes",
       id: 3,
@@ -84,7 +84,7 @@ const data = {
         "A delightful twist on a classic! These cupcakes feature a rich chocolate base topped with a light and airy vanilla cake and a swirl of sweet pink frosting. A perfect combination of flavors and textures",
     },
     {
-      title: "Cupcake with Raspberries",
+      title: "Raspberry",
       src: cupcakeRasberry,
       alt: "Cupcake with Raspberries",
       id: 4,
@@ -92,15 +92,15 @@ const data = {
         "These delicate cupcakes are a burst of summer sweetness. Topped with a swirl of creamy frosting, a sprinkle of pink sugar, and a fresh raspberry, they're a light and refreshing treat perfect for any occasion",
     },
     {
-      title: "Red Velevet Haloween Cupcake",
+      title: "Red Velvet",
       src: cupcakeRed,
-      alt: "Red Velvet Cupcake",
+      alt: "Red velvet halloween cupcake",
       id: 5,
       description:
         'Prepare to be spooked! These gruesomely delicious cupcakes are topped with "blood" dripping down the sides and shards of "glass" for a truly horrifying treat. Perfect for your Halloween party',
     },
     {
-      title: "Cupcake with sprinkles",
+      title: "Sprinkles",
       src: cupcakeSprinkles,
       alt: "Cupcake with sprinkles",
       id: 6,
@@ -108,7 +108,7 @@ const data = {
         "A burst of festive fun! This cupcake is topped with a swirl of creamy frosting in vibrant shades of pink and white, generously sprinkled with colorful sprinkles. It's a delightful treat that's sure to bring a smile to anyone's face.",
     },
     {
-      title: "Tiramisu Cupcake ",
+      title: "Tiramisu",
       src: cupcakeTiramisu,
       alt: "A blue Cake",
       id: 7,
@@ -116,7 +116,7 @@ const data = {
         "Indulge in pure Italian decadence with these tiramisu cupcakes. Layers of coffee-soaked cake and creamy mascarpone frosting, dusted with cocoa powder, capture the essence of the classic dessert in every bite.",
     },
     {
-      title: "Blueberry Cupcake",
+      title: "Blueberry",
       src: cupcakeBlue,
       alt: "Blueberry Cupcake",
       id: 8,
@@ -138,7 +138,7 @@ const data = {
         "Indulge in a slice of creamy perfection with our classic New York-style cheesecake. This rich and decadent dessert boasts a smooth, velvety texture and a buttery graham cracker crust. Topped with a drizzle of sweet berry sauce, it's the perfect ending to any meal.",
     },
     {
-      title: "Birthday Cake",
+      title: "Birthday",
       src: cakeBirthday,
       alt: "Birthday Cake",
       id: 2,
@@ -146,7 +146,7 @@ const data = {
         "This vibrant ombre cake is a celebration in itself! Drizzled with decadent chocolate and adorned with colorful candies, sprinkles, and playful cake pops, it's a showstopper that's sure to delight birthday guests of all ages.",
     },
     {
-      title: "Chocolate Cake",
+      title: "Chocolate",
       src: cakeChocolate,
       alt: "Chocolate Cake",
       id: 3,
@@ -154,7 +154,7 @@ const data = {
         "Indulge in pure chocolate decadence with this two-tiered masterpiece. Rich chocolate cake layers are generously coated in a velvety chocolate ganache and adorned with crushed Oreos and whole cookies. A true chocolate lover's dream!",
     },
     {
-      title: "Donut Cake",
+      title: "Donut",
       src: cakeDonut,
       alt: "Donut Cake",
       id: 4,
@@ -162,7 +162,7 @@ const data = {
         "This playful and whimsical cake is a donut lover's dream! Two tiers of cake are adorned with a cascade of colorful sprinkles, drizzled with chocolate ganache, and topped with a playful arrangement of mini donuts. It's a guaranteed conversation starter at any party.",
     },
     {
-      title: "Fruit Cake",
+      title: "Fruit",
       src: cakeFruit,
       alt: "Fruit Cake",
       id: 5,
@@ -170,7 +170,7 @@ const data = {
         "A delicate, buttery pastry crust filled with smooth, creamy custard or mascarpone. Topped with an assortment of fresh, vibrant fruits like strawberries, kiwis, and blueberries, it offers a refreshing burst of flavor. The combination of the crisp crust, creamy filling, and sweet, juicy fruit makes it a light yet satisfying dessert",
     },
     {
-      title: "Heart Cake",
+      title: "Heart",
       src: cakeHeart,
       alt: "Heart Cake",
       id: 6,
@@ -178,7 +178,7 @@ const data = {
         "A masterpiece of love! decorated with smooth, velvety frosting in shades of pink, red, or white. The heart-shaped decoration on top is usually made from fondant, frosting, or even edible glitter, adding a touch of elegance. Inside, the cake is moist and flavorful, filled with layers of decadent chocolate, vanilla, or strawberry for a sweet and memorable treat.",
     },
     {
-      title: "Blue Cake",
+      title: "Blue",
       src: cakeBlue,
       alt: "A blue Cake",
       id: 7,
@@ -186,7 +186,7 @@ const data = {
         "This elegant cake is a study in cool tones. A smooth blue frosting is adorned with a ring of fresh berries, Oreo cookies, and a delicate drizzle of white chocolate. It's a visually stunning and sophisticated dessert.",
     },
     {
-      title: "Wedding Cake",
+      title: "Wedding",
       src: cakeWedding,
       alt: "A wedding cake",
       id: 8,
@@ -200,7 +200,7 @@ const data = {
 
   cookieData: [
     {
-      title: "Cookie Brownies",
+      title: "Brownie",
       src: cookieBrownies,
       alt: "Brownie Cookie",
       id: 1,
@@ -208,7 +208,7 @@ const data = {
         "Indulge in a decadent treat with these Black Forest Brownie Ice Cream Sandwiches. Rich, fudgy brownies are sandwiched together with creamy ice cream and topped with a dollop of tangy cherry sauce. A heavenly combination of textures and flavors!",
     },
     {
-      title: "Cookie Christmas",
+      title: "Christmas",
       src: cookieChristmas,
       alt: "Christmas Cookies",
       id: 2,
@@ -224,7 +224,7 @@ const data = {
         '"Me want cookies!" These fun and festive cookies are sure to bring a smile to any Sesame Street fan. With their vibrant blue color, googly eyes, and a generous helping of Oreo cookies, these treats are as delicious as they are adorable.',
     },
     {
-      title: "Cookie Oreo",
+      title: "Oreo",
       src: cookieOreo,
       alt: "Oreo cookies",
       id: 4,
@@ -232,7 +232,7 @@ const data = {
         "A chocolate lover's dream! This cookie is packed with chunks of chocolate and Oreo cookies for a burst of flavor in every bite. It's chewy, gooey, and utterly irresistible.",
     },
     {
-      title: "Cookie Red",
+      title: "Red Velvet",
       src: cookieRed,
       alt: "Red velvet cookie",
       id: 5,
@@ -240,15 +240,15 @@ const data = {
         "Indulge in a taste of decadence with these rich and velvety Red Velvet cookies. Studded with creamy white chocolate chips, they offer a delightful blend of sweet and tangy flavors that will leave you wanting more",
     },
     {
-      title: "Cookie Nut",
+      title: "Pecan",
       src: cookieNut,
-      alt: "Nut cookies",
+      alt: "Pecan nut cookies",
       id: 6,
       description:
         "A taste of fall in every bite! These warm and buttery cookies are generously topped with a sweet pecan praline topping for a delightful crunch. Perfect for cozy afternoons and holiday gatherings",
     },
     {
-      title: "Cookie Strawberry",
+      title: "Strawberry",
       src: cookieStrawberry,
       alt: "Strawberry Cookies",
       id: 7,
@@ -256,7 +256,7 @@ const data = {
         "Indulge in a burst of summer sweetness with these vibrant pink strawberry cookies. Soft and chewy with a hint of fruity flavor, they're the perfect treat for a warm day.",
     },
     {
-      title: "Cookie Sugar",
+      title: "Sugar",
       src: cookieSugar,
       alt: "Sugar Cookies",
       id: 8,
