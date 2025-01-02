@@ -19,7 +19,7 @@ const Community = () => {
   return (
     <>
       <Banner src={doughnutsBlue} alt="multiple donuts on a blue background" />
-      <div className="space-y-8 p-5">
+      <div className="space-y-4 w-full">
         <Slogan
           text="Spreading Joy, One Sweet Bite at a Time!"
           src={cupCakeIcon}
@@ -29,18 +29,25 @@ const Community = () => {
           <ThreeImages />
         </div>
         <Carousel />
-        <div className="flex flex-col md:flex-row items-center gap-4 px-5">
-          <Image
-            src={charityHelping}
-            alt="Picture of a women helping at a fundraiser"
-          />
-          <Blurb
-            className="p-5 text-center"
-            text={communityBlurbTxt}
-            textColor="text-primaryBlue"
-          />
+        <div className="flex flex-col md:flex-row items-center justify-around w-full">
+          <div className="md:w-1/3 flex items-center justify-center">
+            <div className="size-80 md:size-96">
+              <Image
+                src={charityHelping}
+                alt="Picture of a women helping at a fundraiser"
+              />
+            </div>
+          </div>
+
+          <div className="md:w-2/3">
+            <Blurb
+              className="p-5 text-center"
+              text={communityBlurbTxt}
+              textColor="text-primaryBlue"
+            />
+          </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center pb-4">
           <a href={window.innerWidth <= 768 ? "tel:15206869449" : undefined}>
             <Button
               backgroundColor="bg-secondaryRed"
