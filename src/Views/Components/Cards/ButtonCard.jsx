@@ -10,7 +10,7 @@ const ButtonCard = ({
   buttonTextColor,
 }) => {
   return (
-    <div className="flex flex-col items-center p-5  border-accentAqua border-y-2">
+    <div className="flex flex-col items-center p-5 border-accentAqua border-y-2">
       <Blurb text={blurbText} textColor={blurbTextColor} />
       <a href={window.innerWidth <= 768 ? "tel:15206869449" : undefined}>
         <Button
